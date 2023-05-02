@@ -8,15 +8,15 @@ header {
     padding: 0 20px;
 }
 
-  .name {
+.name {
     font-size: 2rem;
     font-weight: bold;
-  }
+}
 
-  .career {
-    font-size: 1.2rem;
-    font-style: italic;
-  }
+.career {
+  font-size: 1.2rem;
+  font-style: italic;
+}
 
 body {
   margin: 0;
@@ -29,7 +29,6 @@ nav {
   height: 50px;
   justify-content: center;
   
-
 }
 
 nav ul {
@@ -54,17 +53,15 @@ nav a{
 }
     
 
-  
+.skills {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
 
-  .skills {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 60%;
-  }
-
-  .skills li {
-    margin-right: 20px;
-  }
+.skills li {
+  margin-right: 20px;
+}
