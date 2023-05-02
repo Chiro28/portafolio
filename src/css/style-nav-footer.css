@@ -3,6 +3,7 @@ body {
   padding-top: 50px;
 }
 
+/*  NavBar  */
 nav {
   position: fixed;
   margin-top: -50px;
@@ -47,3 +48,10 @@ nav a:hover span{
   background-position: right;
 }
 
+/*  Footer  */
+
+footer{
+
+  background-color: black;
+
+}
