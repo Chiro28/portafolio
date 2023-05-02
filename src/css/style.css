@@ -68,3 +68,37 @@ nav a{
   .skills li {
     margin-right: 20px;
   }
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .element {
+    flex-basis: calc(33.33% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .element h2 {
+    text-align: center;
+
+  }
+  
+  .box {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    flex-basis: calc(50% - 20px);
+  }
+  
+  .element h2 {
+    margin-top: 0;
+  }
+  
