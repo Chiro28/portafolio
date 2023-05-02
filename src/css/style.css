@@ -17,6 +17,19 @@ header {
     font-size: 1.2rem;
     font-style: italic;
   }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+  }
+
+  .skills li {
+    margin-right: 20px;
+  }
 
 body {
   margin: 0;
@@ -52,22 +65,8 @@ nav a{
   margin-right: 12px;
 
 }
-    
+      
 
-  
-
-  .skills {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 60%;
-  }
-
-  .skills li {
-    margin-right: 20px;
-  }
   .content {
     display: flex;
     flex-direction: column;
@@ -83,19 +82,30 @@ nav a{
     border-radius: 5px;
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: inherit;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 800px) {
+    .element {
+      flex-direction: column;
+    }
   }
   .element h2 {
     text-align: center;
+    width: 100%;
 
   }
   
   .box {
+    display: inherit;
     margin-top: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 20px;
-    flex-basis: calc(50% - 20px);
+    flex-direction: column;
+    flex-grow: 1;
   }
   
   .element h2 {
