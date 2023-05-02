@@ -6,13 +6,13 @@ header {
     background-color: #333;
     color: #fff;
     padding: 0 20px;
-}
-
+  }
+  
   .name {
     font-size: 2rem;
     font-weight: bold;
   }
-
+  
   .career {
     font-size: 1.2rem;
     font-style: italic;
@@ -26,47 +26,11 @@ header {
     padding: 0;
     width: 60%;
   }
-
+  
   .skills li {
     margin-right: 20px;
   }
-
-body {
-  margin: 0;
-}
-
-nav {
-
-  background-color: #333;
-  color: white;
-  height: 50px;
-  justify-content: center;
   
-
-}
-
-nav ul {
-
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 3;
-
-}
-
-nav a{
-
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 15px;
-  display: block;
-  font-family: Cambria,'Times New Roman';
-  margin-right: 12px;
-
-}
-      
-
   .content {
     display: flex;
     flex-direction: column;
@@ -111,4 +75,3 @@ nav a{
   .element h2 {
     margin-top: 0;
   }
-  
