@@ -3,11 +3,12 @@ body {
   padding-top: 50px;
 }
 
+/*  NavBar  */
 nav {
   position: fixed;
   margin-top: -50px;
   width: 100%;
-  background-color: #333;
+  background-color: #31346C;
   color: white;
   height: 50px;
   justify-content: center;
@@ -47,3 +48,22 @@ nav a:hover span{
   background-position: right;
 }
 
+nav ul li:last-child{
+  margin-left: 52%;
+}
+
+/*  Footer  */
+footer{
+  background-color: #31346C;
+  padding-top: 25px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+
+footer  a img{
+  padding: 5px;
+}
+
+footer p{
+  color: white;
+}
